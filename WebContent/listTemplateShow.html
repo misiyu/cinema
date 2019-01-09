@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://v3.bootcss.com/examples/starter-template/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://v3.bootcss.com/favicon.ico">
+
+    <title>数据操作界面</title>
+
+    <!-- Bootstrap core CSS -->
+    
+
+    <!-- Custom styles for this template -->
+    <!--
+    <link href="./use/starter-template.css" rel="stylesheet">
+    -->
+     
+     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+     <!--~icon~-->
+     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous"> 
+     
+     <link rel="stylesheet" type="text/css" href="./funcss/listshow.css">
+    
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./use/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body bcloud="bcloud_1.2">
+
+   
+    <header class="dash-header">
+      <div class="container">
+        <div class="col-md-12">
+          
+            <a class="logo" href="index.htm">MovieInMagic</a>
+            <a href="#" class="exp">hh</a>
+          
+          <div class="dropdown account-dropdown pull-right">
+            <a href="button" class="btn acc-btn">Sign Up</a>
+            <a href="button" class="btn acc-btn">Login</a>       
+          </div>
+
+
+        </div>
+
+      </div>
+    </header>
+   
+
+
+    <div class="container">
+      <div class="col-md-12 colored">
+      <div class="concustom ">
+        <div class="well">
+          <div class="col-md-4">
+            <a class="btn btn-primary btnPosition">Home</a>
+          </div>
+          <div class="col-md-4">
+            <a class="btn btn-danger btnPosition" >Basic DataManagemet</a>
+          </div>
+          <div class="col-md-4">
+            <a class="btn btn-default btnPosition">Personal DataManagemet</a>
+          </div>
+          
+        </div>
+        
+           
+        <div class="concustom1">
+          <div class="nav-list">
+            <div class="navbar-collapse collapse in" id="order_navbar" >
+              <ul class="nav nav-justified nav-pills hovercssa">
+                <!--  Admin_Control User_Control Emplyee_Con  Mv_Data-->
+                <li class="active"><a>管理员维护</a>
+                </li>
+
+                <li class=""><a>用户信息</a></li>
+                <li class=""><a>员工信息</a></li>
+                <li class=""><a>电影库信息</a></li>
+                <li class=""><a>影厅信息</a></li>
+                <li class=""><a>D</a></li>
+              </ul>
+              
+            </div>
+          </div>
+              
+            
+              
+            <hr class="prettyline">
+            <div class="tablepos">
+              <!-- Start Table  -->
+                <div class="panel panel-default">
+                  <div class="panel-heading fix">
+                    <div class="col-md-7"><h4 class="pull-left">注册人员：信息管理</h4></div>
+                    <div class="col-md-5"><a class="pull-left" href="#"><h4>添加注册人员</h4></a></div>               
+                  </div>
+                  <div id="collapseone">
+                    <div class="panel-body">
+                      <table class="table-responsive">
+                        <table class="table table-bordered table-hover table-striped">
+                          <thead>
+                            <tr>
+                              <th align="center" scope="col" colspan="12" class="title_tbody">
+                                <span class="">Input the data</span>
+                              </th>
+                            </tr>
+                          
+                            <tr>
+                            <th scope="col" colspan="1">
+                                <b>id编号</b>
+                                
+                            </th>
+                            <th scope="col" colspan="1">
+                                
+                                <input type="" name="signid" value="" class="spinput">
+                            </th>
+                            <th scope="col" colspan="1">
+
+                                <span>注册姓名</span>
+                            </th>
+                            <th scope="col" colspan="1">
+
+                                <input type="" name="signname" value="" class="spinput">
+                            </th>
+                            <th scope="col" colspan="1">
+
+                                <span>类型</span>
+                            </th>
+                            <th scope="col" colspan="1">
+
+                                <!--<input type="" name="signtype" value="">-->
+                               <select class="form-control">
+                                  <option value selected>选择你的用户类型</option>
+                                  <option>普通用户</option>
+                                  <option>管理员</option>                              
+                              </select> 
+                            </th>
+                          </tr>
+                          <tr>
+                            <th scope="col" colspan="1">
+
+                                <span>email</span>
+                            </th>
+                            <th scope="col" colspan="1">
+
+                                <input type="" name="signemail" value="" class="spinput">
+                            </th>
+                            <th scope="col" colspan="1" >
+
+                                <span>注册时间</span>
+                            </th>
+                            <th scope="col" colspan="1">
+
+                                <input type="" name="signtime" value="" class="spinput">
+                            </th>
+                            <th scope="col" colspan="2">
+
+                                <a class="btn btn-primary btnsearch" >search</a>
+                               
+                            </th>
+
+                          </tr>
+
+                          <tr>
+                            <th width="30%" scope="col" colspan="2">
+                              <b>userid</b>
+                            </th>
+                            <th width="30%" scope="col" colspan="2">
+                              <b>username</b>
+                            </th>
+                            <th width="30%" scope="col" colspan="2">
+                              <b>useremail</b>
+                            </th>
+                            <th width="30%" scope="col" colspan="2">
+                              <b>regtime</b>
+                            </th>
+                            <th width="30%" scope="col" colspan="2">
+                              <b>operation</b>
+                            </th>
+                              
+                          </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td align="center" colspan="12">
+                                
+                              </td>
+                            </tr>
+                          </tbody>
+                          
+                        </table>
+                        
+                      </table>
+                      
+                    </div>
+                    
+                  </div>
+
+                </div>               
+
+              <!-- End Table  -->
+            </div>
+
+
+        </div>
+          
+        
+
+          
+      </div>
+
+      </div>    
+    </div>
+
+    <footer class="site-footer">
+
+    <p>Silence's Work @甘佳洛</p>
+
+      
+    </footer>
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./use/jquery.min.js"></script>
+    <script src="./use/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./use/ie10-viewport-bug-workaround.js"></script>
+    <script type="text/javascript">
+      $('#login-form-link').click(function(e){
+        $('.login-form').delay(100).fadeIn(100);
+        $('.register-form').fadeOut(100);
+        $('#register-form-link').removeClass('active');
+        $(this).addClass('active');
+        e.preventDefault();
+        console.log('Login Happen');
+
+      });
+      $('#register-form-link').click(function(e){
+        $('.register-form').delay(100).fadeIn(100);
+        $('.login-form').fadeOut(100);
+        $('#login-form-link').removeClass('active');
+        $(this).addClass('active');
+        e.preventDefault();
+        console.log('Register Happen');
+      });
+
+
+    </script>
+
+  
+
+</body></html>

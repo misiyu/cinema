@@ -1,0 +1,240 @@
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+     background-color:#59b5fa;
+}
+/*
+.main-nav ul li{
+	line-height: 30px;
+}
+*/
+/*
+.main-nav ul li.cta{
+	float: right;
+	color: black;
+	background: white;
+	border-radius:20px;
+	padding-top: 4px 5px;
+
+}
+*/
+.main-nav ul li.cta:hover{
+	color: black;
+	background: grey;
+	
+
+}
+/*
+.main-nav .container {
+	padding-top: 10px;
+}
+*/
+header,h1{
+	display: block;
+}
+
+
+.dash-header{
+	min-height: 70px;
+	background-color:#258cff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0 auto 20px;
+
+}
+
+
+ h1{
+ 	font-size: 2em;
+ }
+
+ .logo {
+ 	margin-top: 5px;
+ 	color: white;
+ 	font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    width:200px;
+    text-decoration: none;
+
+
+
+ }
+
+
+ a,a:visited,a:focus,a:active,a:hover {
+ 	text-decoration: none;
+ 	outline: none;
+ }
+.account-dropdown{
+	margin-top: 4px;
+}
+.acc-btn{
+	padding:0 15px 5px;
+	text-align: center;
+	height: 38px;
+	color: white;
+}
+
+ a.acc-btn {
+	color: white;
+	font-size: 15px;
+	line-height: 35px;
+	border-radius: 25px;
+	border-color:#fff;
+	font-weight: 200;
+	text-decoration: none;
+    outline: none;
+    letter-spacing:1px;
+
+}
+.exp{
+	text-decoration: none;
+}
+.main-col{
+	min-height: 400px;
+}
+
+/* it is the frame*/
+.colored{
+	background-color: #F0EEEE;
+	margin: 20px;
+	padding: 20px;
+	min-width: 410px;
+}
+.concustom{
+	
+	min-width: 250px;
+	background-color: white;
+	padding: 30px ;
+	margin:50px ;
+	border-radius: 0.5rem;
+	text-align: center;
+}
+
+/*end of frame*/
+
+/*icon*/
+.bigicon{
+	font-size: 97px;
+	color:#30cdcd;
+}
+
+.page-heading{
+	text-align: center;
+	color: rgba(87,108,132,0.8);
+	padding-bottom: 10px;
+	padding:20px;
+}
+
+.page-heading a.active{
+	color: #029f5b;
+	font-weight: 400;
+	font-size: 30px;
+}
+
+
+
+.h2{
+	font-weight:200;
+	font-size: 25px;
+}
+
+.login-form,.register-form{
+	max-width: 320px;
+	margin:40px auto;
+
+}
+.button.huge{
+	height: 48px;
+	line-height: 35px;
+	padding: 0 50px;
+	font-size: 18px;
+	background-color: #5179d6;
+	text-align: center;
+	outline: none;
+	
+}
+.button.huge:hover{
+	background-color: #51d6c4;
+}
+
+
+.register-form input[type="submit"],.login-form input[type="submit"]{
+	width:100%;
+	margin:20px auto;
+	color:#fff;
+	border-radius: 4px;
+	border:0;
+}
+
+.register-form input[type="submit"],
+.login-form input[type="password"],
+.login-form input[type="submit"]{
+	padding:10px 15px;
+
+}
+
+.forget1{
+	padding-top: 20px;
+	text-align:center;
+	letter-spacing: 1px;
+	color: #258cff;
+	font-weight: 200;
+}
+
+.site-footer{
+	padding: 100px 0 160px;
+	margin-top: 60px;
+	text-align: center;
+	color:#95A1A9;
+	background-image:linear-gradient(to bottom,#f3f3f3, #fff);
+
+}
+
+.site-footer p{
+	line-height: 2.5em;
+	font-size: 27px;
+	font-weight: 200;
+}
+.p1{
+	font-family: "Proxima Nova", "proxima-nova", sans-serif;
+	color: #9d9d9d;
+}
+/* make hr more beautiful*/
+.prettyline {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+
+
+
+
